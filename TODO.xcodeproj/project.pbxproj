@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4727FEC7228AF04500E5D188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4727FEC6228AF04500E5D188 /* AppDelegate.swift */; };
-		4727FEC9228AF04500E5D188 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4727FEC8228AF04500E5D188 /* TaskViewController.swift */; };
+		4727FEC9228AF04500E5D188 /* TaskListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4727FEC8228AF04500E5D188 /* TaskListVC.swift */; };
 		4727FECC228AF04500E5D188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4727FECA228AF04500E5D188 /* Main.storyboard */; };
 		4727FECE228AF04800E5D188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4727FECD228AF04800E5D188 /* Assets.xcassets */; };
 		4727FED1228AF04800E5D188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4727FECF228AF04800E5D188 /* LaunchScreen.storyboard */; };
@@ -26,7 +26,7 @@
 /* Begin PBXFileReference section */
 		4727FEC3228AF04500E5D188 /* TODO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TODO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4727FEC6228AF04500E5D188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4727FEC8228AF04500E5D188 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		4727FEC8228AF04500E5D188 /* TaskListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListVC.swift; sourceTree = "<group>"; };
 		4727FECB228AF04500E5D188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4727FECD228AF04800E5D188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4727FED0228AF04800E5D188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 		4727FEE0228AF9D500E5D188 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				4727FEC8228AF04500E5D188 /* TaskViewController.swift */,
+				4727FEC8228AF04500E5D188 /* TaskListVC.swift */,
 				4727FEE1228AFA3E00E5D188 /* TaskDetailVC.swift */,
 			);
 			path = Controller;
@@ -202,7 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4727FEC9228AF04500E5D188 /* TaskViewController.swift in Sources */,
+				4727FEC9228AF04500E5D188 /* TaskListVC.swift in Sources */,
 				4727FEE6228AFAD800E5D188 /* UserDefaults+extension.swift in Sources */,
 				47345B35228B46A600F4367B /* UIViewController+Custom.swift in Sources */,
 				4727FEDF228AF71B00E5D188 /* CustomView.swift in Sources */,

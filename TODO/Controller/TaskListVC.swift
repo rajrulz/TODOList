@@ -9,7 +9,7 @@
 import UIKit
 import UserNotifications
 
-class TaskViewController: UIViewController {
+class TaskListVC: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -65,7 +65,7 @@ class TaskViewController: UIViewController {
     }
 }
 
-extension TaskViewController: UITableViewDataSource {
+extension TaskListVC: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return dataArray.count
     }
@@ -91,7 +91,7 @@ extension TaskViewController: UITableViewDataSource {
         }
     }
 }
-extension TaskViewController: UITableViewDelegate {
+extension TaskListVC: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.performSegue(withIdentifier: Constants.taskDetailsSeque, sender: tableView)
     }
@@ -122,7 +122,7 @@ extension TaskViewController: UITableViewDelegate {
     }
 }
 
-extension TaskViewController: UISearchResultsUpdating, UISearchBarDelegate {
+extension TaskListVC: UISearchResultsUpdating, UISearchBarDelegate {
     func updateSearchResults(for searchController: UISearchController) {
         filterContentForSearchedText(searchController.searchBar.text)
     }
@@ -149,7 +149,7 @@ extension TaskViewController: UISearchResultsUpdating, UISearchBarDelegate {
         tableView.reloadData()
     }
 }
-extension TaskViewController: UNUserNotificationCenterDelegate {
+extension TaskListVC: UNUserNotificationCenterDelegate {
     //for displaying notification when app is in foreground
     func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
         
