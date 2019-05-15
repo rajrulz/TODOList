@@ -43,6 +43,7 @@ class TaskListVC: UIViewController {
         navigationItem.searchController = searchController
         definesPresentationContext = true
         searchController.searchBar.delegate = self
+        searchController.dimsBackgroundDuringPresentation = false
     }
     
     override func viewWillAppear(_ animated: Bool) {
