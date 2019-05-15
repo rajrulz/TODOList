@@ -22,3 +22,6 @@ we can also search tasks on the search bar on the top of the screen based on the
 
 ## delete task 
 Task can deleted by right to left swipe on task list and subsequently pressing delete.
+
+## Modify task
+we can modify any task when we tap on that task in task list. If we provide a new task name it creates a new task else if we change the time of task then it updates the task with new timing. 
