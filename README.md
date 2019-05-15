@@ -18,7 +18,7 @@ A new task can be created by clicking on the + icon on the top of home screen. A
 ## Search task list
 Search tasks on the search bar on the top of the screen based on the title of the tasks.
 
-<img width="534" alt="Screenshot 2019-05-15 at 1 14 35 PM" src="https://user-images.githubusercontent.com/47241636/57757651-8b7fc000-7713-11e9-81df-4bb29cf7d2bb.png">
+<img width="534" alt="Screenshot 2019-05-15 at 2 30 11 PM" src="https://user-images.githubusercontent.com/47241636/57762904-fa621680-771d-11e9-939e-3415f2bb8b51.png">
 
 ## delete task 
 Task can deleted by right to left swipe on task list and subsequently pressing delete.
