@@ -1,6 +1,6 @@
 # TODOList
 
-TodoList app is used to create,Modify and delete tasks at particular date and time. It schedules reminders in form of notifications on successful task creation.
+TodoList app is used to create,modify and delete tasks at particular date and time. It schedules reminders in form of notifications on successful task creation.
 
 ## Create a new task
 A new task can be created by clicking on the + icon on the top of home screen. A genter reminder also comes in form of notification for accomplishing the task.
